@@ -1,0 +1,13 @@
+set nocompatible
+source $VIMRUNTIME/vimrc_example.vim
+source $VIMRUNTIME/mswin.vim
+
+set fileformats=unix
+set fileformat=unix
+set nobackup
+
+colo desert
+set nu ai ts=4 sw=4
+
+:map <F12> i#include <bits/stdc++.h><CR>#ifdef ONLINE_JUDGE<CR>	#define out(x)<CR>#else<CR>	#define out(x) cerr<<#x"="<<(x)<<endl<CR>#endif<CR>using namespace std;<CR>typedef long long LL;<CR>typedef vector<int> vi;<CR>typedef pair<int, int> pii;<CR>typedef vector<pii> vpii;<CR>#define REP(i,n) for(int i=0; i<int(n); i++)<CR>#define pb push_back<CR>#define mp make_pair<CR>#define X first<CR>#define Y second<CR>
+:map! <F12> #include <bits/stdc++.h><CR>#ifdef ONLINE_JUDGE<CR>	#define out(x)<CR>#else<CR>	#define out(x) cerr<<#x"="<<(x)<<endl<CR>#endif<CR>using namespace std;<CR>typedef long long LL;<CR>typedef vector<int> vi;<CR>typedef pair<int, int> pii;<CR>typedef vector<pii> vpii;<CR>#define REP(i,n) for(int i=0; i<int(n); i++)<CR>#define pb push_back<CR>#define mp make_pair<CR>#define X first<CR>#define Y second<CR>
